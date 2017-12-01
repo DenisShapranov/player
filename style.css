@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower:400,300);
+
+body {
+	background-color: #98f6d7;
+	font-family: 'Indie Flower', sans-serif;
+}
+
+video {
+	width: 900px;
+	height: auto;
+}
+
+.container1 {
+	height: auto;
+}
+
+.container2 {
+	height: auto;
+	background-color: #b9b8bd;
+}
+
+.divUrl {
+	margin-bottom: 2.5%;
+}
+
+.txtHead {
+	margin-top: 2.5%;
+	margin-bottom: 2.5%;
+}
+
+.txtHead h1 {
+	font-size: 3em;
+}
+
+.info {
+	color: #d5147c;
+	font-size: 2em;
+	font-weight: bold;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+}
+
+#view {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1026px) {
+	video {
+		width: 280px;
+	}
+	.txtHead h1 {
+		font-size: 1.5em;
+	}
+	.info {
+		font-size: 1em;
+	}
+}
+
+@media screen and (min-width: 360px) and (max-width: 1026px) {
+	video {
+		width: 300px;
+	}
+	.info {
+		font-size: 1em;
+	}
+}
+
+@media screen and (min-width: 375px) and (max-width: 1026px) {
+	.txtHead h1 {
+		font-size: 2em;
+	}
+	.info {
+		font-size: 1em;
+	}
+}
+
+@media screen and (min-width: 412px) and (max-width: 1026px) {
+	video {
+		width: 360px;
+	}
+	.txtHead h1 {
+		font-size: 2em;
+	}
+	.info {
+		font-size: 1.5em;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1026px) {
+	video {
+		width: 680px;
+	}
+	.txtHead h1 {
+		font-size: 2em;
+	}
+	.info {
+		font-size: 1.5em;
+	}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1026px) {
+	video {
+		width: 750px;
+	}
+	.info {
+		font-size: 2em;
+	}
+}
